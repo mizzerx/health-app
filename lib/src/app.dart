@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:speeed_measuring/src/ui/quest_ui.dart';
 import 'package:speeed_measuring/src/ui/speed_ui.dart';
 
 class App extends StatelessWidget {
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const SpeedUi(),
+      home: const QuestUi(),
     );
   }
 }

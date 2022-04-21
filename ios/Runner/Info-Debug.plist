@@ -51,5 +51,12 @@
         <string>This app needs access to location when open.</string>
         <key>NSLocationAlwaysUsageDescription</key>
         <string>This app needs access to location when in the background.</string>
+        <key>NSBonjourServices</key>
+        <array>
+            <string>_dartobservatory._tcp</string>
+        </array>
+        <key>NSLocalNetworkUsageDescription</key>
+        <string>Allow Flutter tools on your computer to connect and debug your application. This prompt will not appear on release builds.
+        </string>
     </dict>
 </plist>
